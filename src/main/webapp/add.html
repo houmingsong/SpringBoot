@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>index.html</title>
+
+    <meta charset="UTF-8"/>
+  </head>
+  
+  <body>
+
+      <form  th:action="@{/add}" method="post" >
+         用户名：<input type="text" name="userName" />
+        用户密码：   <input type="text" name="userPassword" />
+         <input type="submit"/>
+      </form>
+  </body>
+</html>
